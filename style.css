@@ -1,0 +1,140 @@
+header{
+    display: flex;
+    align-items: center;justify-content: space-between;
+
+}
+.cls{
+    display: none;
+}
+.hedbox{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+}
+.hedbox a{
+    text-decoration: none;
+    color: #36536B;
+}
+.hedbox button{
+    border-radius: 25px;
+    border: none;
+    height: 48px;
+    width: 173px;
+    background-color: #BA4270;
+    color: white;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.left{
+    width: 546px;
+    height: 345px;
+    font-size: 30px;
+    color: #36536B;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.right p{
+
+width: 400px;
+
+}
+.right{
+    color: #36536B;
+    width: 445px;
+    height: 164px;
+    margin-bottom: 50px;
+}
+.right h1{
+    font-size: 40px;
+}
+.cards{
+    width: 100%;
+    display: flex;
+     align-items: center;
+     justify-content: space-around;}
+     
+
+footer{
+    background-color: #1B262F;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+}
+.leftt{
+    display: flex;align-items: center;justify-content: center;width: 500px;
+    margin-left: 50px;
+
+}
+.leftt a{
+    text-decoration: none;
+    color: white;
+    width: 200px;
+    margin-left: 10px
+
+}
+.rightt{
+    display: flex;
+    height: 20px;justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin-top: 25px;
+}
+@media(max-width:834px){
+    .box{
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .box2{
+        flex-direction: column;
+    
+    }
+    .cls{
+        display: none;
+    }
+}
+@media(max-width:460px){
+    .cards{
+        flex-direction: column;
+    }
+    .img{
+        width: 440px;
+    }
+    h1{
+        font-size: 30px;
+        margin-left: 30px;
+    }
+    header a{
+        display: none;
+    }
+    header button{
+ display: none;
+    }
+    header{
+        
+    }
+    .cls{display: flex;}
+    footer{
+        height: 400px;
+        flex-direction: column;
+    }
+    .leftt{
+        width: 95px;
+        flex-direction: column;
+        margin-left: 100px;
+    }
+    .leftt a{
+        margin-left: 200px;
+        gap: 20px;
+        height: 50px;
+    }
+}
